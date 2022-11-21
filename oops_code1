@@ -4,12 +4,12 @@ using namespace std;
 class money
 {
   private:
-  float rupee,paisa,paisa1,rupee1,tot;tot1;all;tps;
+  float rupee,paisa,paisa1,rupee1,tot,tot1,all,tps;
   public:
   void enterrupee();
   void enterpaisa();
   void calcrupee();
-  void calcpaisa
+  void calcpaisa();
   void display();
   };
   void money::enterrupee()
@@ -30,7 +30,7 @@ void money::calcrupee()
 {
 tot=rupee+rupee1;
 }
-void mnet::calcpaisa()
+void money::calcpaisa()
 {
 tot1=paisa+paisa1;
 tps=tot1/100;
